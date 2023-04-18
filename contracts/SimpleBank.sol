@@ -136,8 +136,8 @@ contract SimpleBank {
         uint256 elapsedBlocks = block.number - account.lastBalanceBlock;
         uint256 totalBalance = account.balance;
         for (uint256 i = 0; i < elapsedBlocks; i++) {
-            totalBalance *= (10000 + INTEREST_RATE);
-            totalBalance /= 10000;
+            totalBalance *= (10_000 + INTEREST_RATE);
+            totalBalance /= 10_000;
         }
         uint256 interest = totalBalance - account.balance;
         return interest;
