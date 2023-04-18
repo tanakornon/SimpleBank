@@ -10,15 +10,14 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.ts
-npx hardhat run scripts/deploy.js --network sepolia
+npx hardhat run scripts/deploy.ts --network sepolia
 ```
 
 # STT deployed to Address
 ```
-0xf7C439E67c358d456a96bF48555C6E88531dDDDD
+0x8110000257b2EE08629fF5e4e1E812adE4f761C8
 ```
-# SimpleBank deployed to Address (Old Version)
+# SimpleBank deployed to Address
 ```
-0x5465E4B1260086e30Dd8778B6c8E2D653bBc16Df
+0xa97b5B29Da6f891a137049F5375feb6B878538aA
 ```
-note: MY account have out of ETH, need to wait for 24 hours to get more.
